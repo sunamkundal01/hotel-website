@@ -51,7 +51,7 @@ url(backkk.jpg)  ;
 }
 
 .servicebox:hover {
-    box-shadow: 0 5px 15px rgba(21, 19, 19, 0.8);
+    box-shadow: 05px 15px rgba(21, 19, 19, 0.8);
 
 }
 
@@ -71,7 +71,6 @@ url(backkk.jpg)  ;
 
 .navbar {
     width: 100%;
-    height: 160px;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 
@@ -92,13 +91,13 @@ url(backkk.jpg)  ;
     display: flex;
     color: white;
 
+
 }
 
 .imglogo {
     margin-left: 30px;
     height: 150px;
     width: 150px;
-    margin-top: 5px;
 }
 
 .imglogo:hover {
@@ -129,7 +128,9 @@ url(backkk.jpg)  ;
 
 }
 
+
 .u-list li a {
+
     padding: 30px;
     text-decoration: none;
     color: white;
@@ -139,22 +140,25 @@ url(backkk.jpg)  ;
     font-weight: bold;
 
 
+
 }
 
 .u-list {
     padding-left: 30px;
     /* border: 2px solid purple; */
     height: 150px;
-    width: 49%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: start;
     align-items: center;
+
 }
 
 .u-list li {
     list-style-type: none;
     padding-left: 5px;
+
 }
 
 .homepage {
@@ -330,14 +334,17 @@ url(backkk.jpg)  ;
         align-items: center;
         justify-content: center;
 
+
     }
 
     .u-list a {
         flex-direction: column;
+
     }
 
     .box {
         flex-direction: column;
+
 
     }
 
